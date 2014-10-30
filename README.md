@@ -29,7 +29,7 @@ Usage
 
 To apply `coat.js` to your elements, in your JavaScript, use:
 ```javascript
-$("#selector").coat();
+$("#element").coat();
 ```
 
 Examples
@@ -37,13 +37,13 @@ Examples
 
 If you'd like `coat.js` to more than one element, use:
 ```javascript
-$("#selector1").coat();
-$("#selector2").coat();
+$("#element1").coat();
+$("#element2").coat();
 ```
 
 `coat.js` also accepts some special rules
 ```javascript
-$("#seletor").coat({
+$("#element").coat({
 	css: {
 		"color": "white"
 	},
