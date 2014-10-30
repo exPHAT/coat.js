@@ -35,9 +35,10 @@ $("#selector").coat();
 Examples
 --------
 
-If you'd like to have coat.js affect multiple elements, you can use either classes or a selector that gives multiple elements.
+If you'd like `coat.js` to more than one element, use:
 ```javascript
-$(".selector1, selector2, p").coat();
+$("#selector1").coat();
+$("#selector2").coat();
 ```
 
 `coat.js` also accepts some special rules
@@ -53,7 +54,7 @@ $("#seletor").coat({
 Rules
 -----
 
-Currently, there are 3 rules that you can apply to an element with `coat.js` enabled
+Currently, there are 2 rules that you can apply to an element with `coat.js` enabled
 
 #### `pointSelector`
 The default selector that `coat.js` uses is `.coat`. You can customize this by adding the `pointSelector` attribute to your newly initialized coat element. This can be done with:

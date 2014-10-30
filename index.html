@@ -5,10 +5,10 @@
 	<title>Coat.js</title>
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="lib/coat.min.js"></script>
+	<script src="lib/coat.js"></script>
 </head>
 <body>
-	<div class="text">ABC</div>
+	<div class="text">Scroll Down!</div>
 	<div class="one"></div>
 	<div class="two"></div>
 	<div class="one another"></div>
@@ -17,7 +17,7 @@
 		$(document).ready(function() {
 			$(".text").coat({
 				css: {
-					"color": "pink"
+					"color": $(".one").css("background-color")
 				},
 				pointSelector: ".one, .two"
 			});
@@ -33,12 +33,12 @@
 			padding: 0;
 		}
 		.one {
-			height: 100%;
-			background-color: green;
+			height: 50%;
+			background-color: #33B5E5;
 		}
 		.two {
 			height: 50%;
-			background-color: blue;
+			background-color: #99E500;
 		}
 		.text {
 			position: fixed;
@@ -48,7 +48,10 @@
 			top: 20px;
 			width: 100%;
 			height: 60px;
-			color: black;
+			color: #99E500;
+		}
+		.another {
+			height: 100%;
 		}
 	</style>
 </body>
