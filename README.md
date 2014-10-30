@@ -5,7 +5,7 @@ Coat.js is a JQuery plugin for point based reveal for HTML elements.
 
 [Try it for yourself!](http://exphat.github.io/coat.js)
 
-![a Coat.js example](https://raw.github.com/ExPHAT/coat.js/master/coat.jpg)
+![a Coat.js example](https://raw.githubusercontent.com/ExPHAT/coat.js/master/coat.jpg)
 
 Features
 --------
