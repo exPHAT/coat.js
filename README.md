@@ -89,4 +89,4 @@ $("#element").coat({
 	modifier: 1
 });
 ```
-**Explination**: If you have `top` set to `-1px` and you need to compensate for it. Therefor, +1.
+**Explination**: If you have `top` set to `-1px` and you need to compensate for it, you would add 1 to fix it (This is not always the case, but it happens).
