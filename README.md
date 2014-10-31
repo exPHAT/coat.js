@@ -57,7 +57,7 @@ $("#element").coat({
 Rules
 -----
 
-Currently, there are 2 rules that you can apply to an element with `coat.js` enabled
+Currently, there are 3 rules that you can apply to an element with `coat.js` enabled
 
 #### `pointSelector`
 The default selector that `coat.js` uses is `.coat`. You can customize this by adding the `pointSelector` attribute to your newly initialized coat element. This can be done with:
@@ -67,7 +67,7 @@ $("#element").coat({
 });
 ```
 This changes the element that the element is revealed on to the class `betterCoat`.
-**Note:** by applying the `pointSelector` attribute, you ignore the defualt coat selector (`.coat`).
+**Note:** by applying the `pointSelector` attribute, you ignore the default coat selector (`.coat`).
 
 #### `css`
 The `css` attribute allows you to apply the specified CSS rules to the second element that is created.
@@ -81,3 +81,12 @@ $("#element").coat({
 });
 ```
 **Note:** By default, `coat.js` changes the CSS `color` attribute to red. This is only for testing purposes. You are encouraged not to make anything on your webpage hard red.
+
+#### `modifier`
+The `modifier` attribute is used if for some reason, the scroll is slightly off. This can occur if you have top set to -1 or something such as that. To use it, just specify it when you apply `coat.js` to an object.
+```javascript
+$("#element").coat({
+	modifier: 1
+});
+```
+**Explination**: If you have `top` set to `-1px` and you need to compensate for it. Therefor, +1.
