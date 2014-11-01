@@ -1,1 +1,6 @@
+# Random file on OSX
 .DS_Store
+
+# temp I think?
+*.tmp
+swp.*
