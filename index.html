@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Coat.js</title>
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="lib/coat.min.js"></script>
-</head>
-<body>
-	<div class="text">Scroll down for what &darr;</div>
-	<div class="one"></div>
-	<div class="two"></div>
-	<div class="one another"></div>
+	<head>
+		<meta charset="UTF-8">
+		<title>Coat.js</title>
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="lib/coat.min.js"></script>
+	</head>
+	<body>
+		<div class="text">Scroll down for what &darr;</div>
+		<div class="one"></div>
+		<div class="two"></div>
+		<div class="one another"></div>
 
-	<script>
-		$(document).ready(function() {
-			$(".text").coat({
-				css: {
-					"color": $(".one").css("background-color")
-				},
-				points: ".one, .two"
+		<script>
+			$(document).ready(function() {
+				$(".text").coat({
+					css: {
+						"color": $(".one").css("background-color")
+					},
+					points: ".one, .two"
+				});
 			});
-		});
-	</script>
+		</script>
 
-	<style>
-		html, body {
-			height: 100%;
-			width: 100%;
-			margin: 0;
-		}
-		.one, .two {
-			height: 50%;
-		}
-		.one {
-			background-color: white;
-		}
-		.two {
-			background-color: black;
-		}
-		.text {
-			position: fixed;
-			font-size: 50px;
-			font-family: sans-serif;
-			text-align: center;
-			top: 50px;
-			width: 100%;
-			height: 60px;
-			color: black;
-		}
-		.another {
-			height: 100%;
-		}
-	</style>
-</body>
+		<style>
+			html, body {
+				height: 100%;
+				width: 100%;
+				margin: 0;
+			}
+			.one, .two {
+				height: 50%;
+			}
+			.one {
+				background-color: white;
+			}
+			.two {
+				background-color: black;
+			}
+			.text {
+				position: fixed;
+				font-size: 50px;
+				font-family: sans-serif;
+				text-align: center;
+				top: 50px;
+				width: 100%;
+				height: 60px;
+				color: black;
+			}
+			.another {
+				height: 100%;
+			}
+		</style>
+	</body>
 </html>
