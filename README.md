@@ -49,7 +49,7 @@ $("#element").coat({
 	css: {
 		"color": "white"
 	},
-	pointSelector: ".changepoint"
+	points: ".changepoint"
 });
 ```
 
@@ -58,15 +58,15 @@ Rules
 
 Currently, there are 3 rules that you can apply to an element with `coat.js` enabled
 
-#### `pointSelector`
-The default selector that `coat.js` uses is `.coat`. You can customize this by adding the `pointSelector` attribute to your newly initialized coat element. This can be done with:
+#### `points`
+The default selector that `coat.js` uses is `.coat`. You can customize this by adding the `points` attribute to your newly initialized coat element. This can be done with:
 ```javascript
 $("#element").coat({
-	pointSelector: ".betterCoat"
+	points: ".betterCoat"
 });
 ```
 This changes the element that the element is revealed on to the class `betterCoat`.
-**Note:** by applying the `pointSelector` attribute, you ignore the default coat selector (`.coat`).
+**Note:** by applying the `points` attribute, you ignore the default coat selector (`.coat`).
 
 #### `css`
 The `css` attribute allows you to apply the specified CSS rules to the second element that is created.
