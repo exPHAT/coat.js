@@ -79,7 +79,7 @@ $("#element").coat({
 	}
 });
 ```
-**Note:** By default, `coat.js` changes the CSS `color` attribute to red. This is only for testing purposes. You are encouraged not to make anything on your webpage hard red.
+**Note:** By default, `coat.js` changes the CSS `color` attribute to red. This is only for testing purposes. You are encouraged not to make anything on your web page hard red.
 
 #### `modifier`
 The `modifier` attribute is used if for some reason, the scroll is slightly off. This can occur if you have top set to -1 or something such as that. To use it, just specify it when you apply `coat.js` to an object.
