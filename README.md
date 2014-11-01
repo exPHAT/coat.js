@@ -20,7 +20,6 @@ Features
 Usage
 -----
 
-
 1. Ensure to include the latest JQuery version
 2. Download the `coat.js` file and reference the it from your HTML.
 
